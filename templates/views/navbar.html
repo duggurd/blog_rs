@@ -1,0 +1,9 @@
+<nav class="fixed w-screen bg-gray-950 bg-opacity-90">
+  <ul class="flex flex-cols justify-center space-x-6 m-5">
+    {% for name, path in navs %}
+    <a href="{{ path }}">
+      <li>{{ name }}</li>
+    </a>
+    {% endfor %}
+  </ul>
+</nav>

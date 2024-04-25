@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-950 text-gray-200">
+    <div class="">{{ navbar | safe }}</div>
+    <div
+      class="pt-24 max-w-4xl min-w-xl m-auto rounded-xl shadow-lg p-12 shadow-gray-800"
+    >
+      {{ view | safe }}
+    </div>
+  </body>
+</html>
